@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cargo-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cargo-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cargo-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cargo-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cargo-infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cargo-infrastructure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kargo-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kargo-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kargo-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kargo-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kargo-infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kargo-infrastructure/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

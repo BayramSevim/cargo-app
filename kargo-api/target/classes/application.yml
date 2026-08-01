@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: kargo-api
+  profiles:
+    active: dev
+
+kargo:
+  pricing:
+    base-price: "49.90"
+    per-kg: 25
+    currency: 11
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: beans, conditions, health, env
+
+server:
+  port: ${SERVER_PORT:8080}

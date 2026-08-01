@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: kargo-api
+
+kargo:
+  pricing:
+    base-price: "22.95"
+    per-kg: 2
+    currency: 21
+
+server:
+  port: ${SERVER_PORT:8080}
