@@ -1,7 +1,9 @@
 com\kargo\api\KargoApiApplication.class
 com\kargo\api\SpecificationDemo.class
+com\kargo\api\TransactionDemo.class
 com\kargo\api\NPlusOneDemo.class
 com\kargo\api\config\PricingProperties.class
+com\kargo\api\service\ShipmentService.class
 com\kargo\api\lifecycle\LifecycleDemoBean.class
 com\kargo\api\lifecycle\LoggingBeanPostProcessor.class
 com\kargo\api\DataSeeder.class
