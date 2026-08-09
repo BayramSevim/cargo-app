@@ -1,0 +1,1 @@
+ALTER TABLE customers ADD COLUMN deneme VARCHAR(20) not null;

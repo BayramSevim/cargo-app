@@ -7,8 +7,8 @@ spring:
 kargo:
   pricing:
     base-price: "49.90"
-    per-kg: 25
-    currency: 11
+    per-kg: "25.12"
+    currency: "TRY"
 
 management:
   endpoints:

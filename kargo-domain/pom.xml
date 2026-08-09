@@ -14,4 +14,10 @@
   <artifactId>kargo-domain</artifactId>
   <name>kargo-domain</name>
   <url>http://maven.apache.org</url>
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.persistence</groupId>
+            <artifactId>jakarta.persistence-api</artifactId>
+        </dependency>
+    </dependencies>
 </project>

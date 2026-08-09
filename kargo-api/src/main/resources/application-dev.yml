@@ -1,12 +1,33 @@
 spring:
   application:
     name: kargo-api
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5433/kargodb
+    username: "postgres"
+    password: "123456"
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+        generate_statistics: true
+    open-in-view: false
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        orm:
+          jdbc:
+            bind: TRACE
 
 kargo:
   pricing:
     base-price: "22.95"
-    per-kg: 2
-    currency: 21
+    per-kg: "2.50"
+    currency: "TRY"
 
 server:
   port: ${SERVER_PORT:8080}

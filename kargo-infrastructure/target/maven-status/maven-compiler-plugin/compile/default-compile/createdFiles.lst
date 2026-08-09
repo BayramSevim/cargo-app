@@ -1,0 +1,11 @@
+com\kargo\infrastructure\persistence\repository\ShipmentRepository.class
+com\kargo\infrastructure\persistence\repository\CourierRepository.class
+com\kargo\infrastructure\persistence\repository\CustomerRepository.class
+com\kargo\infrastructure\persistence\entity\CourierEntity.class
+com\kargo\infrastructure\persistence\entity\BranchEntity.class
+com\kargo\infrastructure\persistence\entity\CustomerEntity.class
+com\kargo\infrastructure\persistence\repository\BranchRepository.class
+com\kargo\infrastructure\persistence\entity\ShipmentEventEntity.class
+com\kargo\infrastructure\persistence\repository\ShipmentEventRepository.class
+com\kargo\infrastructure\persistence\entity\ShipmentEntity.class
+com\kargo\infrastructure\persistence\specification\ShipmentSpecifications.class
