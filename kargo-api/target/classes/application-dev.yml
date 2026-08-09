@@ -2,6 +2,11 @@ spring:
   application:
     name: kargo-api
   datasource:
+    hikari:
+      pool-name: kargo-api
+      maximum-pool-size: ${HIKARI_POOL_SIZE:5}
+      connection-timeout: 10000
+      leak-detection-threshold: 2000
     url: jdbc:postgresql://127.0.0.1:5433/kargodb
     username: "postgres"
     password: "123456"
