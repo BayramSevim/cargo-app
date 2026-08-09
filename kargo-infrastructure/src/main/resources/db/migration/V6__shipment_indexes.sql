@@ -1,0 +1,1 @@
+CREATE INDEX sp_status_created_at ON shipments (status,created_at);
