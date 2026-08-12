@@ -16,4 +16,7 @@ public interface ShipmentRepository extends JpaRepository<ShipmentEntity, Long> 
 
     @Query("SELECT s FROM ShipmentEntity s LEFT JOIN FETCH s.events WHERE s.id = :id")
     Optional<ShipmentEntity> findByIdWithEvents(@Param("id") Long id);
+
+    @Query("SELECT s FROM ShipmentEntity s WHERE s.trackingNumber = :trackingNumber")
+    Optional<ShipmentEntity> findByTrackingNumber(@Param("trackingNumber") String trackingNumber);
 }

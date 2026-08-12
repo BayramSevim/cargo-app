@@ -1,8 +1,10 @@
+C:\Users\Bayram\Desktop\JavaProject\kargo-v2\kargo-infrastructure\src\main\java\com\kargo\infrastructure\persistence\entity\AddressEntity.java
 C:\Users\Bayram\Desktop\JavaProject\kargo-v2\kargo-infrastructure\src\main\java\com\kargo\infrastructure\persistence\entity\BranchEntity.java
 C:\Users\Bayram\Desktop\JavaProject\kargo-v2\kargo-infrastructure\src\main\java\com\kargo\infrastructure\persistence\entity\CourierEntity.java
 C:\Users\Bayram\Desktop\JavaProject\kargo-v2\kargo-infrastructure\src\main\java\com\kargo\infrastructure\persistence\entity\CustomerEntity.java
 C:\Users\Bayram\Desktop\JavaProject\kargo-v2\kargo-infrastructure\src\main\java\com\kargo\infrastructure\persistence\entity\ShipmentEntity.java
 C:\Users\Bayram\Desktop\JavaProject\kargo-v2\kargo-infrastructure\src\main\java\com\kargo\infrastructure\persistence\entity\ShipmentEventEntity.java
+C:\Users\Bayram\Desktop\JavaProject\kargo-v2\kargo-infrastructure\src\main\java\com\kargo\infrastructure\persistence\repository\AddressRepository.java
 C:\Users\Bayram\Desktop\JavaProject\kargo-v2\kargo-infrastructure\src\main\java\com\kargo\infrastructure\persistence\repository\BranchRepository.java
 C:\Users\Bayram\Desktop\JavaProject\kargo-v2\kargo-infrastructure\src\main\java\com\kargo\infrastructure\persistence\repository\CourierRepository.java
 C:\Users\Bayram\Desktop\JavaProject\kargo-v2\kargo-infrastructure\src\main\java\com\kargo\infrastructure\persistence\repository\CustomerRepository.java

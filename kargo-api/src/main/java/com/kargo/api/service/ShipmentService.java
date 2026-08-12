@@ -1,6 +1,8 @@
 package com.kargo.api.service;
 
+import com.kargo.api.dto.response.ShipmentResponse;
 import com.kargo.domain.ShipmentStatus;
+import com.kargo.domain.exception.ShipmentNotFoundException;
 import com.kargo.infrastructure.persistence.entity.CustomerEntity;
 import com.kargo.infrastructure.persistence.entity.ShipmentEntity;
 import com.kargo.infrastructure.persistence.entity.ShipmentEventEntity;
@@ -13,6 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ShipmentService {
@@ -97,4 +100,19 @@ public class ShipmentService {
         shipmentEventRepository.save(shipmentEventEntity);
         throw new Exception("Checked patlattim");
     }
+
+    @Transactional(readOnly = true)
+    public ShipmentResponse getShipmentByTrackingNumber(String trackingNumber){
+        ShipmentEntity findShipment = shipmentRepository.findByTrackingNumber(trackingNumber)
+                .orElseThrow(() -> new ShipmentNotFoundException("Tracking Number Not Found : " , trackingNumber));
+
+        return new ShipmentResponse(
+                findShipment.getTrackingNumber(),
+                findShipment.getStatus(),
+                findShipment.getWeightKg(),
+                findShipment.getPrice(),
+                findShipment.getCreatedAt()
+        );
+    }
+
 }

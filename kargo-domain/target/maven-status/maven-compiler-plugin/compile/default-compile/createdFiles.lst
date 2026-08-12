@@ -1,1 +1,3 @@
+com\kargo\domain\exception\ShipmentNotFoundException.class
 com\kargo\domain\ShipmentStatus.class
+com\kargo\domain\AddressType.class
